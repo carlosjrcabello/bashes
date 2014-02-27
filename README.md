@@ -1,6 +1,6 @@
 Some util bash scripts.
 
-``
-kill-tree conky
-kill-tree java
+* Exports all mysql tables that matches with prefix parameter.
+``bash
+dump-tables db_foo root root.pass tb_%
 ``
